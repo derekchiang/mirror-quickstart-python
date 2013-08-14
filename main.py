@@ -14,7 +14,7 @@
 
 """RequestHandlers for starter project."""
 
-__author__ = 'alainv@google.com (Alain Vongsouvanh)'
+__author__ = 'derekchiang93@gmail.com (Derek Chiang)'
 
 
 # Add the library location to the path

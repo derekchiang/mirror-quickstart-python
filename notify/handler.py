@@ -88,6 +88,8 @@ class NotifyHandler(webapp2.RequestHandler):
             body=body, media_body=media).execute()
         # Only handle the first successful action.
         break
+      elif user_action.get('type') == 'REPLY':
+        logging.info('receiving a reply!')
       else:
         logging.info(
             "I don't know what to do with this notification: %s", user_action)
